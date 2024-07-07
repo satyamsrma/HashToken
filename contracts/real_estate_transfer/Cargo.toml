@@ -1,0 +1,13 @@
+[package]
+name = "token_transfer_manager"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+name = "token_transfer_manager"
+path = "src/libs.rs"
